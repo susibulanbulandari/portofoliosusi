@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Branding Strategy from susi kuliner</title>
+	<link rel="stylesheet" href="bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		.project-container {
+			background-color: white;
+			max-width: 1200px;
+			margin: 0 auto;
+			box-shadow: 0 0 30px rgba(0,0,0,0.1);
+		}
+		.full-width-image {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.breadcrumb {
+			padding: 20px;
+			background-color: #f8f9fa;
+			font-family: 'IBM Plex Mono', monospace;
+			font-size: 14px;
+		}
+		.breadcrumb a {
+			color: black;
+			text-decoration: none;
+		}
+		.breadcrumb a:hover {
+			text-decoration: underline;
+		}
+		.project-title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 50pt;
+			transform: translate(-50%, -50%);
+			color: white;
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		}
+		.image-container {
+			position: relative;
+		}
+		
+		/* Slider Styles */
+		.project-slider {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+		.slider-container {
+			display: flex;
+			transition: transform 0.5s ease;
+			width: 300%;
+		}
+		.slider-slide {
+			width: 33.33%;
+			flex-shrink: 0;
+		}
+		.slider-slide img {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.slider-controls {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			gap: 10px;
+		}
+		.slider-dot {
+			width: 10px;
+			height: 10px;
+			background-color: rgba(255,255,255,0.5);
+			border-radius: 50%;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+		.slider-dot.active {
+			background-color: white;
+		}
+		
+		/* Slider Checkbox Hack */
+		.slider-toggle {
+			display: none;
+		}
+		#slide1:checked ~ .slider-container {
+			transform: translateX(0);
+		}
+		#slide2:checked ~ .slider-container {
+			transform: translateX(-33.33%);
+		}
+		#slide3:checked ~ .slider-container {
+			transform: translateX(-66.66%);
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="../index.html#contact">contact</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li>behance</li>
+			<li><a href="https://x.com/anzanul" target="_blank">twitter</a></li>
+			<li>linkedin</li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="image-container">
+			<img src="https://i.pinimg.com/736x/39/c4/76/39c47618a2e486a5dbd94a02e7eb6b42.jpg" class="full-width-image" alt="Cosmetics Branding Project">
+			<h1 class="project-title">Branding Strategy<br>from susi kuliner</h1>
+		</div>
+		<div class="breadcrumb">
+			<a href="../index.html">Home</a> / Branding Strategy for susi kuliner
+		</div>
+		<section class="project" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Konsep Kuliner</h2>
+						<p>Proyek ini bertujuan untuk mengeksplorasi dan mengangkat keunikan dunia kuliner melalui pendekatan kreatif dan informatif, dengan menampilkan ragam hidangan, cerita di balik resep, serta pengalaman rasa yang merepresentasikan kekayaan budaya dan tradisi kuliner.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Eksplorasi Rasa dan Inspirasi Kuliner</h2>
+						<p>Menggali Tren, Tradisi, dan Preferensi Rasa:</p>
+						<ul>
+							<li>Dalam tahap ini, dilakukan eksplorasi mendalam terhadap berbagai aspek kuliner, mulai dari tren makanan terkini, kekayaan cita rasa lokal hingga kebiasaan konsumsi masyarakat, guna memperoleh wawasan yang dapat menjadi dasar dalam mengembangkan konsep yang otentik, relevan, dan menggugah selera.t</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Penguatan Identitas Kuliner</h2>
+						<p>meracik citra rasa kuliner:</p>
+						<ul>
+							<li>Pengembangan identitas merek dalam proyek kuliner ini berfokus pada penciptaan citra yang kuat, autentik, dan mudah dikenali, dengan mengangkat nilai-nilai kelezatan, kehangatan, serta kekayaan budaya yang terkandung dalam setiap sajian, sehingga mampu membangun koneksi emosional dengan audiens dan membedakan merek di tengah persaingan industri kuliner</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Hasil dan Dampak Proyek</h2>
+						<p>manfaat yang dihasilkan:</p>
+						<ul>
+							<li>Melalui proyek kuliner ini, dihasilkan identitas merek yang kuat, strategi komunikasi yang selaras dengan nilai-nilai kelezatan dan kehangatan, serta konten visual dan naratif yang mampu membangun daya tarik emosional, meningkatkan keterlibatan audiens, dan memperkuat posisi brand di tengah pasar kuliner yang kompetitif.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Gallery Kuliner Susi</h2>
+						<div class="project-slider">
+							<input type="radio" name="slider" id="slide1" class="slider-toggle" checked>
+							<input type="radio" name="slider" id="slide2" class="slider-toggle">
+							<input type="radio" name="slider" id="slide3" class="slider-toggle">
+							
+							<div class="slider-container">
+								<div class="slider-slide">
+									<img src="https://i.pinimg.com/736x/c8/f4/62/c8f462619dccfefa487ed6471c215aff.jpg" alt="Dashboard App">
+								</div>
+								<div class="slider-slide">
+									<img src="https://i.pinimg.com/736x/ba/21/6e/ba216e4c29e267dc12b81f3633d668e7.jpg" alt="Cosmetics Project">
+								</div>
+								<div class="slider-slide">
+									<img src="https://i.pinimg.com/736x/7a/ad/64/7aad64f4c3e4e935a22c4fab3c311b5a.jpg" alt="iPad App">
+								</div>
+							</div>
+							
+							<div class="slider-controls">
+								<label for="slide1" class="slider-dot"></label>
+								<label for="slide2" class="slider-dot"></label>
+								<label for="slide3" class="slider-dot"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="contact">
+		<h2>Interested in<br>
+			learning more?<br>susibulandari@gmail.com</h2>
+			<p>designed by Susi Bulandari 2025</p>
+		</footer>
+	</body>
+	</html>

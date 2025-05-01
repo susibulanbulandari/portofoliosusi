@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Branding Strategy from susi kuliner</title>
+	<link rel="stylesheet" href="bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		.project-container {
+			background-color: white;
+			max-width: 1200px;
+			margin: 0 auto;
+			box-shadow: 0 0 30px rgba(0,0,0,0.1);
+		}
+		.full-width-image {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.breadcrumb {
+			padding: 20px;
+			background-color: #f8f9fa;
+			font-family: 'IBM Plex Mono', monospace;
+			font-size: 14px;
+		}
+		.breadcrumb a {
+			color: black;
+			text-decoration: none;
+		}
+		.breadcrumb a:hover {
+			text-decoration: underline;
+		}
+		.project-title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 50pt;
+			transform: translate(-50%, -50%);
+			color: white;
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		}
+		.image-container {
+			position: relative;
+		}
+		
+		/* Slider Styles */
+		.project-slider {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+		.slider-container {
+			display: flex;
+			transition: transform 0.5s ease;
+			width: 300%;
+		}
+		.slider-slide {
+			width: 33.33%;
+			flex-shrink: 0;
+		}
+		.slider-slide img {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.slider-controls {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			gap: 10px;
+		}
+		.slider-dot {
+			width: 10px;
+			height: 10px;
+			background-color: rgba(255,255,255,0.5);
+			border-radius: 50%;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+		.slider-dot.active {
+			background-color: white;
+		}
+		
+		/* Slider Checkbox Hack */
+		.slider-toggle {
+			display: none;
+		}
+		#slide1:checked ~ .slider-container {
+			transform: translateX(0);
+		}
+		#slide2:checked ~ .slider-container {
+			transform: translateX(-33.33%);
+		}
+		#slide3:checked ~ .slider-container {
+			transform: translateX(-66.66%);
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="../index.html#contact">contact</a></li>
+			<li>works</li>
+			<li>expertience</li>
+			<li class="empty"></li>
+			<li>behance</li>
+			<li><a href="https://x.com/anzanul" target="_blank">twitter</a></li>
+			<li>linkedin</li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="image-container">
+			<img src="https://i.pinimg.com/736x/09/8c/68/098c68ef387f3f3950f5b40183468656.jpg" class="full-width-image" alt="shopping Branding Project">
+			<h1 class="project-title">Branding Strategy<br>from susi </h1>
+		</div>
+		<div class="breadcrumb">
+			<a href="../index.html">Home</a> / Branding Strategy from susi
+		</div>
+		<section class="project" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>pengalaman belanja</h2>
+						<p>Proyek ini bertujuan untuk menciptakan pengalaman belanja yang inovatif dan menyenangkan, dengan mengintegrasikan teknologi dan desain yang memudahkan pengguna dalam menjelajahi berbagai produk, membandingkan harga, serta membuat keputusan pembelian dengan lebih cepat dan efisien, sambil menjaga pengalaman belanja yang personal dan menarik</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>analisis tren belanja</h2>
+						<p>tren belanja terkini:</p>
+						<ul>
+							<li>Pada tahap riset ini, dilakukan analisis mendalam mengenai tren belanja terkini, perilaku konsumen, serta preferensi terhadap platform belanja online maupun offline, guna memahami kebutuhan dan harapan pengguna dalam menciptakan pengalaman belanja yang lebih efisien, menyenangkan, dan relevan dengan perkembangan pasar yang terus berubah.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>alur belanja sederhana</h2>
+						<p>membuat belanja lebih mudah:</p>
+						<ul>
+							<li>Strategi desain UX dalam proyek ini difokuskan pada penyederhanaan alur belanja, peningkatan navigasi produk, serta penyajian informasi yang jelas dan menarik, guna menciptakan pengalaman berbelanja yang intuitif, cepat, dan memuaskan, baik bagi pengguna baru maupun pelanggan setia.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>puas dalam belanja</h2>
+						<p>menemukan kepuasan dalam belanja:</p>
+						<ul>
+							<li>Berbelanja bukan sekadar aktivitas rutin, melainkan pengalaman yang menyenangkan di mana saya dapat mengeksplorasi berbagai produk, menyesuaikan pilihan dengan kebutuhan maupun gaya pribadi, serta merasakan kepuasan saat menemukan barang yang tepat pada waktu yang tepat.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Gallery Susi</h2>
+						<div class="project-slider">
+							<input type="radio" name="slider" id="slide1" class="slider-toggle" checked>
+							<input type="radio" name="slider" id="slide2" class="slider-toggle">
+							<input type="radio" name="slider" id="slide3" class="slider-toggle">
+							
+							<div class="slider-container">
+								<div class="slider-slide">
+									<img src="https://i.pinimg.com/736x/4f/ed/c8/4fedc8c64765f23c2f539f917fe42a5d.jpg" alt="Dashboard App">
+								</div>
+								<div class="slider-slide">
+									<img src="https://i.pinimg.com/736x/73/81/48/7381481577c2206426928dd1d1ebd603.jpg" alt="Cosmetics Project">
+								</div>
+								<div class="slider-slide">
+									<img src="https://i.pinimg.com/736x/05/b2/72/05b272fab8e792fac1d6183ee853d97e.jpg" alt="iPad App">
+								</div>
+							</div>
+							
+							<div class="slider-controls">
+								<label for="slide1" class="slider-dot"></label>
+								<label for="slide2" class="slider-dot"></label>
+								<label for="slide3" class="slider-dot"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="contact">
+		<h2>Interested in<br>
+			learning more?<br>susibulandari@gmail.com</h2>
+			<p>designed by Susi Bulandari 2025</p>
+		</footer>
+	</body>
+	</html>
